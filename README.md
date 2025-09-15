@@ -1,7 +1,7 @@
 # mTBIMLPCohort1
 
-Multi-layer Perceptron developed for Cohort 1 of the metabolic biomarker data provided by Fiandaca et al., 2019.  
-In the dataset, the value '0' indicates a control (no mTBI), and the value '6' indicates a test (positive mTBI). Only data collected 6 hours post injury were used (see file: "AthleteTBIData.csv".
+Multi-layer Perceptron developed for Cohort 2 of the metabolic biomarker data provided by Fiandaca et al., 2019.  
+In the dataset, the value '0' indicates a control (no mTBI), and the value '1' indicates a test (positive mTBI). Per Fiandaca and colleagues, all data was collected at various times post-injury (no control for data collection).
 
 # How It's Made
 
@@ -42,11 +42,11 @@ Accuracy: 0.80
 Note: The decrease in accuracy seen here is likely due to overfitting of the model, where the machine instead simply 'memorizes' the data, rather than actually learning from it. In order to combat this in the future, steps should be taken to ensure high volume and high-quality datasets be used.  
 
 __AUC/ROC Curve__  
-<img width="300" height="403" alt="image" src="https://github.com/user-attachments/assets/75848887-19ef-4047-8734-64a12c80a0aa" />  
+<img width="300" height="403" alt="image" src="https://github.com/user-attachments/assets/1adb4b45-e20b-4736-b6f2-b833f58dd752" />
 Interpretation: A curve closer to the upper-left corner indicates a higher AUC-ROC, which is desirable. AUC-ROC measures the model's ability to distinguish between a positive and negative case. A higher AUC-ROC indicates the model has a better ability at distinguishing between the two groups based on the data. An AUC-ROC above 0.80 indicates good/excellent model performance.  
 
 __Confusion Matrix__  
-<img width="300" height="318" alt="image" src="https://github.com/user-attachments/assets/5a8af044-0402-4a74-badb-3edc5e9c247f" />  
+<img width="300" height="318" alt="image" src="https://github.com/user-attachments/assets/9618e4d7-c8bc-443d-999f-d1f737251936" />
 Notes: Upper left corner: true positive; upper right corner: false positive; lower left corner: false negative; lower right corner: true negative. Future developments should seek to minimze the number of Type II errors;  this may be achieved through a higher quality of dataset.
 
 # Final Notes  
