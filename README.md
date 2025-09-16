@@ -45,7 +45,7 @@ __Confusion Matrix__
 <img width="300" height="318" alt="image" src="https://github.com/user-attachments/assets/9618e4d7-c8bc-443d-999f-d1f737251936" />  
 Notes: Upper left corner: true positive; upper right corner: false positive; lower left corner: false negative; lower right corner: true negative.  
 # Final Notes  
-Future developments and expansions of this MLP should seek to increase accuracy whilst maintaining precision and recall. Type II errors should be minimized, which can be done through the optimization of precision (however, recall should also be balanced in order to reduce the risk of Type I errors). Additionally, future steps should be taken to confirm external validity of the model. The workflow in Cohort 2 was not identical, so future research could seek to replicate the workflow seen here more accurately in Cohort 2's model.  
+Future developments and expansions of this MLP should seek to increase accuracy and AUC-ROC values. Additionally, future steps should be taken to confirm external validity of the model. The workflow in Cohort 2 was not identical to that of Cohort 1 (the imbalanced dataset here called for the use of SMOTE), so future research should seek to replicate the workflow seen here more accurately in Cohort 1's model. A more effective option to achieving this would be simply to search for higher-quality datasets which have similar features (biomarkers).
 
 Link to Datasets:
 https://datadryad.org/dataset/doi:10.5061/dryad.559907q  
